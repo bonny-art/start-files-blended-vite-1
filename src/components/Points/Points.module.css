@@ -1,0 +1,34 @@
+.points {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.button {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: var(--shadow-medium);
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.one {
+    background-color: aqua;
+}
+
+.two {
+    background-color:blue;
+}
+
+.three {
+    background-color:azure;
+}
+
+.four {
+    background-color:cadetblue;
+}
+
+.five {
+    background-color:coral;
+}
