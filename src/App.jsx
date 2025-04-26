@@ -10,12 +10,16 @@ import article from './data/article.json';
 import stats from './data/stats.json';
 import forbes from './data/forbes.json';
 import transactions from './data/transactions.json';
+import Points from './components/Points/Points';
 
 export const App = () => {
   return (
     <Section>
       <Container>
-        <Heading title="Task 1 Blog Card" bottom tag="h1" />
+        <Heading title="Points" bottom />
+        <Points />
+
+        <Heading title="Task 1 Blog Card" bottom top tag="h1" />
         <BlogCard
           poster={article.poster}
           tag={article.tag}
